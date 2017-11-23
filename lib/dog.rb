@@ -4,7 +4,7 @@ attr_accessor :name
 
   def initialize(name)
     @name = name
-    @@v << self
+    @@all << self
   end
 
 end
